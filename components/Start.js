@@ -20,6 +20,17 @@ export default class Start extends React.Component {
     };
   }
 
+  changeBgColor = (newColor) => {
+    this.setState({ bgColor: newColor });
+  };
+
+  colors = {
+    black: '#090C08',
+    purple: '#474056',
+    grey: '#8A95A5',
+    green: '#1DA01B',
+  };
+
   render() {
     return (
       <View style={styles.container}>
@@ -138,6 +149,7 @@ const styles = StyleSheet.create({
     fontSize: 16,
     fontWeight: '300',
     color: '#757083',
+    opacity: 100,
   },
 
   colorArray: {
@@ -181,6 +193,7 @@ const styles = StyleSheet.create({
     backgroundColor: '#1D6085',
     alignItems: 'center',
     justifyContent: 'center',
+    color: '#757083',
   },
 
   buttonText: { color: '#FFFFFF', fontSize: 16, fontWeight: '600' },
