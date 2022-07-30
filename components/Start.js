@@ -131,7 +131,6 @@ const styles = StyleSheet.create({
   inputBox: {
     borderWidth: 2,
     borderRadius: 1,
-    borderColor: 'grey',
     width: '88%',
     height: 60,
     paddingLeft: 20,
