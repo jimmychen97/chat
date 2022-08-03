@@ -17,6 +17,7 @@ export default class Start extends React.Component {
 
     this.state = {
       name: '',
+      bgColor: '',
     };
   }
 
@@ -53,8 +54,7 @@ export default class Start extends React.Component {
 
             <View style={styles.colorBox}>
               <Text style={styles.chooseColorText}>
-                {' '}
-                Choose Background Color:{' '}
+                Choose Background Color:
               </Text>
             </View>
 
@@ -139,6 +139,7 @@ const styles = StyleSheet.create({
   },
 
   colorBox: {
+    flexDirection: 'column',
     marginRight: 'auto',
     paddingLeft: 15,
     width: '88%',

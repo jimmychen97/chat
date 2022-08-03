@@ -230,12 +230,12 @@ export default class Chat extends React.Component {
   };
 
   render() {
-    let { color, name } = this.props.route.params;
+    let { bgColor, name } = this.props.route.params;
 
     return (
       <View
         style={{
-          backgroundColor: color,
+          backgroundColor: bgColor,
           flex: 1,
         }}
       >
