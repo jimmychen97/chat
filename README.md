@@ -20,7 +20,7 @@ npm install expo-cli -g
 - start the app `expo start`
 - Launch the app by scanning the QR code
 
-# How to run the project
+# How to configure Firebase
 - Create Google Firebase account
 - Sign into https://firebase.google.com/
 - Create a project > Start in test mode > Create a collection (with AutoID)
